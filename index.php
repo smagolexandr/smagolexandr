@@ -2,6 +2,7 @@
 require 'vendor/autoload.php';
 use Gregwar\Captcha\CaptchaBuilder;
 use php_rutils\RUtils;
+use php_rutils\struct\TimeParams;
 
 
 
@@ -9,8 +10,11 @@ $builder = new CaptchaBuilder;
 $builder->build();
 
 
-$numeral = RUtils::numeral();
-echo RUtils::numeral()->getRubles(100.25);
+$params = new TimeParams();
+$params->date = null; //это значение по умолчанию
+$params->format = 'сегодня d F Y года';
+$params->monthInflected = true;
+echo RUtils::dt()->ruStrFTime($params);
 
 //phpinfo();
 ?>
