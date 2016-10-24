@@ -1,0 +1,185 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8f7296d306b012df2e4b05dbd536500c",
+    "content-hash": "a1febc00d7503df934f2b0e870cc7d76",
+    "packages": [
+        {
+            "name": "andre_487/php_rutils",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Andre-487/php_rutils.git",
+                "reference": "d411db6b5feb004af47d318c76c5c7124c807c7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Andre-487/php_rutils/zipball/d411db6b5feb004af47d318c76c5c7124c807c7e",
+                "reference": "d411db6b5feb004af47d318c76c5c7124c807c7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "php_rutils": ".."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "RUtils is a Russian-specific string utils (transliteration, numeral is words, russian dates, typography)",
+            "homepage": "https://github.com/Andre-487/php_rutils",
+            "keywords": [
+                "numeral is words",
+                "russian dates",
+                "transliteration",
+                "typography"
+            ],
+            "time": "2015-10-24 17:20:22"
+        },
+        {
+            "name": "cupoftea/counter",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CupOfTea696/Counter.git",
+                "reference": "3b433ce72530d07f1d203d0521f8fe389b2ebc36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CupOfTea696/Counter/zipball/3b433ce72530d07f1d203d0521f8fe389b2ebc36",
+                "reference": "3b433ce72530d07f1d203d0521f8fe389b2ebc36",
+                "shasum": ""
+            },
+            "require": {
+                "cupoftea/package": "^1.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1"
+            },
+            "suggest": {
+                "illuminate/support": "Allows using Arrayable items as traversable and enables usage of the Counter Facade"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CupOfTea\\Counter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CupOfTea696",
+                    "email": "cupoftea696@gmail.com"
+                }
+            ],
+            "description": "Simple indexed looping",
+            "time": "2016-09-15 12:12:00"
+        },
+        {
+            "name": "cupoftea/package",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CupOfTea696/Package.git",
+                "reference": "59ed3c689f3c94cffb4a0dc24ffb4190f26ab4ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CupOfTea696/Package/zipball/59ed3c689f3c94cffb4a0dc24ffb4190f26ab4ba",
+                "reference": "59ed3c689f3c94cffb4a0dc24ffb4190f26ab4ba",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CupOfTea\\Package\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CupOfTea696",
+                    "email": "cupoftea696@gmail.com"
+                }
+            ],
+            "description": "Package base for CoT Packages.",
+            "time": "2015-05-16 18:45:12"
+        },
+        {
+            "name": "gregwar/captcha",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gregwar/Captcha.git",
+                "reference": "1240ab993ca713680573b2d4166900da5f758623"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/1240ab993ca713680573b2d4166900da5f758623",
+                "reference": "1240ab993ca713680573b2d4166900da5f758623",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "captcha",
+            "autoload": {
+                "psr-4": {
+                    "Gregwar\\Captcha\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grégoire Passault",
+                    "email": "g.passault@gmail.com",
+                    "homepage": "http://www.gregwar.com/"
+                },
+                {
+                    "name": "Jeremy Livingston",
+                    "email": "jeremy.j.livingston@gmail.com"
+                }
+            ],
+            "description": "Captcha generator",
+            "homepage": "https://github.com/Gregwar/Captcha",
+            "keywords": [
+                "bot",
+                "captcha",
+                "spam"
+            ],
+            "time": "2015-09-11 15:23:20"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": []
+}
