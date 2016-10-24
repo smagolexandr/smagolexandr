@@ -1,10 +1,16 @@
 {
     "name": "root/smagolexandr",
+    "require": {
+        "php": ">=5.6",
+        "gregwar/captcha": "^1.1",
+        "cupoftea/counter": "^1.1",
+        "andre_487/php_rutils": "^1.2"
+    },
     "authors": [
         {
             "name": "SmagOlexandr",
             "email": "smagolexandr@gmail.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev"
 }
